@@ -1,0 +1,339 @@
+
+    .scale-in-center {
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+
+      @media only screen and (min-width: 600px) {
+      body {
+          background: url('obrazy/imageedit_7_2480844669.png') no-repeat center center fixed ;
+          font-family: 'DM Sans', sans-serif;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+      #sitename {
+          margin-left:auto;
+          margin-right:auto;
+          width:50%;
+          color: white;
+          font-size: 450%; 
+      }
+      h1 {
+          margin-top:3%;
+          margin-left:auto;
+          margin-right:auto;
+          text-align:center;
+          color:white;
+      }
+      h2 {
+          margin-left:auto;
+          margin-right:auto; 
+          color: white;
+          font-size: 300%;
+      }
+      #logreg {
+          margin-top:1%;
+          width: 100%;
+          margin-left:auto;
+          margin-right:auto;
+          text-align:center;
+      }
+      #logowanie {
+          width: 49%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 300%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          border-radius: 25px;
+      }
+      #rejestracja {
+          width: 49%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 300%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          border-radius: 25px;
+      }
+      #blur {
+          background-color: rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(1px);
+          width: 100%;
+          margin-left:auto;
+          margin-right:auto;
+          padding:2%;
+          height:30%;
+          margin-top:-2%;
+          animation-name: shadow-drop-2-center;
+      }
+      #menu_option {
+          margin-top:3%;
+          margin-left:5%;
+          margin-bottom:3%;
+          background: transparent;
+          font-size: 400%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          width:90%;
+          border-radius: 25px;
+      }   
+      #logout {
+          width: 20%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          border-radius: 25px;
+      }
+      a {
+          margin:auto; 
+          text-align:center;"
+      }
+          }
+          @media only screen and (min-width: 1300px) { 
+       body {
+          background: url('obrazy/imageedit_7_2480844669.png') no-repeat center center fixed;
+          font-family: 'DM Sans', sans-serif;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+      #sitename {
+          margin-left:auto;
+          margin-right:auto;
+          width:25%;
+          color: white;
+          font-size: 250%; 
+      }
+      h1 {
+          margin-top:1%;
+          margin-left:auto;
+          margin-right:auto;
+      }
+      h2 {
+          margin-left:auto;
+          margin-right:auto; 
+          color: white;
+          font-size: 200%;
+      }
+      #logreg {
+          margin-top:1%;
+          width: 50%;
+          margin-left:auto;
+          margin-right:auto;
+      }
+      #logowanie {
+          width: 49%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+      }
+      #rejestracja {
+          width: 49%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+      }
+      #logout {
+          width: 20%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 150%;
+          padding: -1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          border-radius: 25px;
+      }
+      #blur {
+          background-color: rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(1px);
+          width: 40%;
+          margin-left:auto;
+          margin-right:auto;
+          padding:2%;
+          height:30%;
+          margin-top:-2%;
+      }
+      #menu_option {
+          margin-top:3%;
+          margin-left:5%;
+          margin-bottom:3%;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          width:90%;
+      }       
+              }
+      @media only screen and (min-width: 1900px) {
+      body {
+          background: url('obrazy/imageedit_7_2480844669.png') no-repeat center center fixed;
+          font-family: 'DM Sans', sans-serif;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+      }
+      #sitename {
+          margin-left:auto;
+          margin-right:auto;
+          width:25%;
+          color: white;
+          font-size: 450%; 
+      }
+      h1 {
+          margin-top:1%;
+          margin-left:auto;
+          margin-right:auto;
+          animation-name: shadow-drop-2-center;
+      }
+      h2 {
+          margin-left:auto;
+          margin-right:auto; 
+          color: white;
+          font-size: 200%;
+      }
+      #logreg {
+          margin-top:1%;
+          width: 50%;
+          margin-left:auto;
+          margin-right:auto;
+      }
+      #logowanie {
+          width: 49%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+      }
+      #rejestracja {
+          width: 20%;
+          margin-left:auto;
+          margin-right:auto;
+          background: transparent;
+          font-size: 150%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+      }
+      #logout {
+          width: 10%;
+          text-align:center;
+          background: transparent;
+          font-size: 200%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          border-radius: 25px;
+      }
+      #blur {
+          background-color: rgba(0, 0, 0, 0.4);
+          backdrop-filter: blur(1px);
+          width: 40%;
+          margin-left:auto;
+          margin-right:auto;
+          padding:2%;
+          height:30%;
+          margin-top:-2%;
+      }
+      #menu_option {
+          margin-top:3%;
+          margin-left:5%;
+          margin-bottom:3%;
+          background: transparent;
+          font-size: 250%;
+          padding: 1%;
+          font-family: 'DM Sans', sans-serif;
+          color: white;
+          border-color:white;
+          border-style: solid;
+          border-width: 3px;
+          width:90%;
+      }
+      }
